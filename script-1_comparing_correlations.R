@@ -42,5 +42,7 @@ bfi_women <- as.data.frame(bfi_women)
 
 #compare now,  ONLY WHEN RAW DATA ACCESSIBLE
 cocor(~A1+E1|A1+E1, data=list(bfi_men, bfi_women))
--- 
+
+#Write Up: (p value from fisher1925)
+#(delta)r = .08, 95% CI [-.002, .15], p =.057 
   
